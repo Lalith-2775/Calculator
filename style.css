@@ -1,0 +1,49 @@
+body{
+    padding:0px;
+    margin:0px;
+     background: #d6d6d6;
+    height:500px;    
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+   
+}
+
+#value{
+    margin:0px;
+    display: flex;
+    height: 40px;
+     background: #1e1e1e;
+    color: white;
+    justify-content: end;
+    align-items: center;
+    padding: 15px 15px 15px 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border: solid;
+    border-color: black;
+}
+
+#bottom{
+    padding:1px 1px 1px 1px;
+    margin:0;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2px;
+    width: 400px;
+     border: solid;
+    border-color: black;
+    
+}
+#bottom button{
+    height: 70px;
+    padding:0;
+    margin:0;
+    background: #4a4a4a;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+
+
